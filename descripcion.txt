@@ -1,0 +1,20 @@
+Clase: Pelicula
+Atributos:
+-Código: Número único para cada película
+-Titulo: Nombre de la película
+-Duración: Tiempo de duración de la película en minutos
+-Director: Nombre del director de la película
+-Prestada: Indica si la película está prestada o no
+
+Métodos:
+-__init__(): Método contructor.
+-Getter y Setters: Para todos los atributos encapsulados.
+-prestar(): Se encarga de cambiar el estado de la película a prestada.
+-devolver(): Se encarga de cambiar el estado de la película a no prestada.
+costo_produccion(): Calcula el costo de producción de la película multiplicando 
+la duración por 100 que es el costo por minuto de producción.
+-__str__(): Para mostrar los datos de la película.
+-__eq__(): Verifica si el código de la película es igual al código de otra película.
+
+Instanciación de 3 objetos de la clase Pelicula.
+Ejecución de cada método de la clase Pelicula.
